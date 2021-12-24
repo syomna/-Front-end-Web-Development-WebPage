@@ -1,0 +1,155 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::-moz-selection {
+  color: #000;
+  background: #a8ece7;
+}
+
+::selection {
+  color: #000;
+  background: #a8ece7;
+}
+
+::-moz-selection {
+  color: #000;
+  background: #a8ece7;
+}
+
+.container {
+  padding: 10px 8%;
+}
+
+.main-header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #3f3d56;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Header Section */
+.header-section {
+  padding-top: 4%;
+}
+
+.heading-text {
+  color: #ffca2c;
+  font-weight: bold;
+}
+
+.pro-img {
+  width: 50%;
+}
+
+.read-more-button {
+  color: #fff;
+  background-color: #ffca2c;
+}
+
+.modal-forms {
+  margin-bottom: 10px;
+}
+
+/* Subscription */
+.subscription {
+  background-color: #f4beee;
+  padding: 20px 0;
+  margin: 40px 0;
+}
+
+.subscription h3 {
+  font-weight: bold;
+}
+
+/* Cards Section */
+.cards-section {
+  padding-top: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* What You'll Learn Section */
+.html-section {
+  background-color: #fff;
+  padding: 2%;
+  color: #000;
+}
+
+.html-section img {
+  width: 40%;
+}
+
+.html-section h2 {
+  font-weight: bold;
+}
+
+.js-section {
+  background-color: #3f3d56;
+  padding: 2%;
+  color: #fff;
+}
+
+.js-section img {
+  width: 30%;
+}
+
+.js-section h2 {
+  font-weight: bold;
+}
+
+.learning-text {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .learning-text {
+    width: 100%;
+  }
+}
+
+.learning-section {
+  padding: 4% 0;
+}
+
+/* Our Instructors */
+.instructors-section {
+  padding: 4%;
+}
+
+.instructors-section img {
+  border-radius: 100%;
+  padding-bottom: 10px;
+}
+
+/* Contact Us Section */
+#map {
+  width: 400px;
+  height: 300px;
+}
+
+.contact-header {
+  font-weight: bold;
+}
+
+.contact-us {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 4%;
+  color: #fff;
+  background-color: #3f3d56;
+}
+/*# sourceMappingURL=styles.css.map */

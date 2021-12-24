@@ -1,0 +1,155 @@
+$primaryColor: #3f3d56;
+$secondaryColor: #f4beee;
+$textColor: #ffca2c;
+$selectionColor: #a8ece7;
+$fontFamily: "Josefin Sans", sans-serif;
+
+body {
+  font-family: $fontFamily;
+}
+
+::selection {
+  color: #000;
+  background: $selectionColor;
+}
+::-moz-selection {
+  color: #000;
+  background: $selectionColor;
+}
+
+.container {
+  padding: 10px 8%;
+}
+
+.main-header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.navbar {
+  background-color: $primaryColor;
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
+
+/* Header Section */
+
+.header-section {
+  padding-top: 4%;
+}
+
+.heading-text {
+  color: $textColor;
+  font-weight: bold;
+}
+
+.pro-img {
+  width: 50%;
+}
+
+.read-more-button {
+  color: #fff;
+  background-color: $textColor;
+}
+
+.modal-forms {
+  margin-bottom: 10px;
+}
+
+/* Subscription */
+
+.subscription {
+  background-color: $secondaryColor;
+  padding: 20px 0;
+  margin: 40px 0;
+  h3 {
+    font-weight: bold;
+  }
+}
+
+/* Cards Section */
+
+.cards-section {
+  padding-top: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* What You'll Learn Section */
+
+@mixin learningSectionStyle(
+  $bg-color: #fff,
+  $text-color: #000,
+  $img-width: 40%
+) {
+  background-color: $bg-color;
+  padding: 2%;
+  color: $text-color;
+  img {
+    width: $img-width;
+  }
+  h2 {
+    font-weight: bold;
+  }
+}
+
+.html-section {
+  @include learningSectionStyle;
+}
+
+.js-section {
+  @include learningSectionStyle($primaryColor, #fff, 30%);
+}
+
+.learning-text {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .learning-text {
+    width: 100%;
+  }
+}
+
+.learning-section {
+  padding: 4% 0;
+}
+
+/* Our Instructors */
+
+.instructors-section {
+  padding: 4%;
+
+  img {
+    border-radius: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+/* Contact Us Section */
+
+#map {
+  width: 400px;
+  height: 300px;
+}
+
+.contact-header {
+  font-weight: bold;
+}
+
+.contact-us {
+  padding: 20px;
+}
+
+/* Footer */
+
+footer {
+  padding: 4%;
+  color: #fff;
+  background-color: $primaryColor;
+}
